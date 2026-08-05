@@ -1,0 +1,16 @@
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/exception/WxJsCodeIncorrectException.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/token/WxMaAuthenticationToken.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/ShiroWeiXinPrincipal.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/authc/WxMaAuthenticatingFilter.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/realm/WxMpAuthorizingRealm.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/token/WxMpAuthenticationToken.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/realm/WxMaAuthorizingRealm.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/exception/WxJsCodeNotFoundException.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/exception/WxAuthenticationException.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/authc/WxMpAuthenticatingFilter.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/authc/WxMaLoginRequest.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/authc/WxAuthenticationSuccessHandler.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/exception/WxJsCodeExpiredException.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/exception/URIUnpermittedException.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/authc/WxMpLoginRequest.java
+/Users/wandl/workspaces/workspace-github-easy-4-java/shiro-weixin-extension/src/main/java/org/apache/shiro/spring/boot/weixin/exception/WxJsCodeInvalidException.java
