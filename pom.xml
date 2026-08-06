@@ -50,8 +50,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>17</java.version>
         <shiro.version>1.13.0</shiro.version>
-        <shiro-biz.version>2.0.x.20260630-SNAPSHOT</shiro-biz.version>
-        <shiro-jwt-extension.version>2.0.x.20260630-SNAPSHOT</shiro-jwt-extension.version>
+        <easy4j-shiro-biz.version>2.0.x.20260630-SNAPSHOT</easy4j-shiro-biz.version>
+        <easy4j-shiro-jwt-extension.version>2.0.x.20260630-SNAPSHOT</easy4j-shiro-jwt-extension.version>
         <spring.version>5.3.27</spring.version>
         <weixin-java.version>4.3.4.B</weixin-java.version>
         <fastjson.version>2.0.62</fastjson.version>
@@ -111,13 +111,13 @@
             <dependency>
                 <groupId>io.github.easy4j</groupId>
                 <artifactId>shiro-jwt-extension</artifactId>
-                <version>${shiro-jwt-extension.version}</version>
+                <version>${easy4j-shiro-jwt-extension.version}</version>
             </dependency>
             <!-- For Easy4j Shiro -->
             <dependency>
                 <groupId>io.github.easy4j</groupId>
                 <artifactId>shiro-biz</artifactId>
-                <version>${shiro-biz.version}</version>
+                <version>${easy4j-shiro-biz.version}</version>
             </dependency>
             <!-- For Shiro -->
             <dependency>
