@@ -14,7 +14,7 @@
 		<java.version>1.8</java.version>
 		<shiro.version>1.13.0</shiro.version>
 		<shiro-biz.version>2.0.0.RELEASE</shiro-biz.version>
-		<shiro-jwt-extension.version>1.0.0.RELEASE</shiro-jwt-extension.version>
+		<shiro-jwt.version>1.0.0.RELEASE</shiro-jwt.version>
 		<spring.version>5.3.27</spring.version>
 		<weixin-java.version>4.3.4.B</weixin-java.version>
 	</properties>
@@ -58,8 +58,8 @@
 		</dependency>
 		<dependency>
 			<groupId>io.github.hiwepy</groupId>
-			<artifactId>shiro-jwt-extension</artifactId>
-			<version>${shiro-jwt-extension.version}</version>
+			<artifactId>shiro-jwt-spring</artifactId>
+			<version>${shiro-jwt.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>io.github.hiwepy</groupId>
