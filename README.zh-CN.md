@@ -4,6 +4,8 @@
 
 [![Java](https://img.shields.io/badge/Java-17-orange)](https://github.com/easy-4-java/shiro-weixin-extension) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
+shiro-weixin-extension 是 Apache Shiro 的微信认证扩展，将微信公众号（MP）OAuth 2.0 登录与微信小程序（Ma）登录接入 Shiro 的 Realm 与过滤器链。
+
 ## 目录
 
 - [1. Project Overview](#1-project-overview)

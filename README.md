@@ -4,6 +4,8 @@
 
 [![Java](https://img.shields.io/badge/Java-17-orange)](https://github.com/easy-4-java/shiro-weixin-extension) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
+shiro-weixin-extension is an Apache Shiro extension that bridges WeChat authentication into a Shiro security chain
+
 ## Table of Contents
 
 - [1. Project Overview](#1-project-overview)
