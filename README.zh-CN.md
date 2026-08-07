@@ -1,10 +1,8 @@
-# shiro-weixin-extension
+# shiro-weixin
 
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
-[![Java](https://img.shields.io/badge/Java-8-orange)](https://github.com/easy-4-java/shiro-weixin-extension) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://www.apache.org/licenses/LICENSE-2.0.txt)
-
-shiro-weixin-extension 是 Apache Shiro 的微信认证扩展，将微信公众号（MP）OAuth 2.0 登录与微信小程序（Ma）登录接入 Shiro 的 Realm 与过滤器链。
+[![Java](https://img.shields.io/badge/Java-8-orange)](https://github.com/easy-4-java/shiro-weixin) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
 ## 目录
 
@@ -22,9 +20,9 @@ shiro-weixin-extension 是 Apache Shiro 的微信认证扩展，将微信公众�
 
 ## 1. Project Overview
 
-`shiro-weixin-extension` 是 Apache Shiro 的微信认证扩展，将微信公众号（MP）OAuth 2.0 登录与微信小程序（Ma）登录接入 Shiro 的 Realm 与过滤器链。应用只需携带微信 `code` / `jscode` 发起登录请求，即可完成认证并将用户作为普通 Shiro Subject 处理。
+`shiro-weixin` 是 Apache Shiro 的微信认证扩展，将微信公众号（MP）OAuth 2.0 登录与微信小程序（Ma）登录接入 Shiro 的 Realm 与过滤器链。应用只需携带微信 `code` / `jscode` 发起登录请求，即可完成认证并将用户作为普通 Shiro Subject 处理。
 
-该模块基于 easy4j 的 `shiro-biz` 模块（`AbstractTrustableAuthenticatingFilter`、`AbstractAuthorizingRealm`），并与 easy4j 的 `shiro-jwt-spring` 模块配合用于签发 JWT。微信协议本身委托给 WxJava（`weixin-java-mp`、`weixin-java-miniapp`）。
+该模块基于 easy4j 的 `shiro-extension-spring` 模块（`AbstractTrustableAuthenticatingFilter`、`AbstractAuthorizingRealm`），并与 easy4j 的 `shiro-jwt-spring` 模块配合用于签发 JWT。微信协议本身委托给 WxJava（`weixin-java-mp`、`weixin-java-miniapp`）。
 
 它不是：
 
@@ -64,7 +62,7 @@ shiro-weixin-extension 是 Apache Shiro 的微信认证扩展，将微信公众�
 | Apache Shiro | 1.13.0 |
 | Spring Framework | 5.3.x |
 | WxJava | 4.3.4.B（`weixin-java-mp`、`weixin-java-miniapp`） |
-| easy4j 兄弟模块 | `shiro-biz`、`shiro-jwt-spring`（同一 `1.0.x.*` 版本线） |
+| easy4j 兄弟模块 | `shiro-extension-spring`、`shiro-jwt-spring`（同一 `1.0.x.*` 版本线） |
 
 版本线：
 
@@ -115,7 +113,7 @@ Maven：
 ```xml
 <dependency>
     <groupId>io.github.easy4j</groupId>
-    <artifactId>shiro-weixin-extension</artifactId>
+    <artifactId>shiro-weixin-spring</artifactId>
     <version>1.0.x.20260630-SNAPSHOT</version>
 </dependency>
 ```
@@ -123,7 +121,7 @@ Maven：
 Gradle：
 
 ```groovy
-implementation 'io.github.easy4j:shiro-weixin-extension:1.0.x.20260630-SNAPSHOT'
+implementation 'io.github.easy4j:shiro-weixin-spring:1.0.x.20260630-SNAPSHOT'
 ```
 
 ## 6. Quick Start

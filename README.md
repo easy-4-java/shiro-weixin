@@ -1,10 +1,8 @@
-# shiro-weixin-extension
+# shiro-weixin
 
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
-[![Java](https://img.shields.io/badge/Java-8-orange)](https://github.com/easy-4-java/shiro-weixin-extension) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://www.apache.org/licenses/LICENSE-2.0.txt)
-
-shiro-weixin-extension is an Apache Shiro extension that bridges WeChat authentication into a Shiro security chain
+[![Java](https://img.shields.io/badge/Java-8-orange)](https://github.com/easy-4-java/shiro-weixin) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
 ## Table of Contents
 
@@ -22,9 +20,9 @@ shiro-weixin-extension is an Apache Shiro extension that bridges WeChat authenti
 
 ## 1. Project Overview
 
-`shiro-weixin-extension` is an Apache Shiro extension that bridges WeChat authentication into a Shiro security chain. It plugs WeChat Official Account (MP) OAuth 2.0 login and WeChat Mini Program (Ma) login into Shiro realms and filters, so that an application can authenticate users with a WeChat `code` / `jscode` and then treat them as normal Shiro subjects.
+`shiro-weixin` is an Apache Shiro extension that bridges WeChat authentication into a Shiro security chain. It plugs WeChat Official Account (MP) OAuth 2.0 login and WeChat Mini Program (Ma) login into Shiro realms and filters, so that an application can authenticate users with a WeChat `code` / `jscode` and then treat them as normal Shiro subjects.
 
-It builds on the easy4j `shiro-biz` module (`AbstractTrustableAuthenticatingFilter`, `AbstractAuthorizingRealm`) and pairs with the easy4j `shiro-jwt-spring` module for JWT-based session issuance. The WeChat protocol itself is delegated to WxJava (`weixin-java-mp`, `weixin-java-miniapp`).
+It builds on the easy4j `shiro-extension-spring` module (`AbstractTrustableAuthenticatingFilter`, `AbstractAuthorizingRealm`) and pairs with the easy4j `shiro-jwt-spring` module for JWT-based session issuance. The WeChat protocol itself is delegated to WxJava (`weixin-java-mp`, `weixin-java-miniapp`).
 
 What it is **not**:
 
@@ -64,7 +62,7 @@ Project status: pre-release development line (`1.0.x.*` snapshots); public API i
 | Apache Shiro | 1.13.0 |
 | Spring Framework | 5.3.x |
 | WxJava | 4.3.4.B (`weixin-java-mp`, `weixin-java-miniapp`) |
-| easy4j sibling modules | `shiro-biz`, `shiro-jwt-spring` (same `1.0.x.*` line) |
+| easy4j sibling modules | `shiro-extension-spring`, `shiro-jwt-spring` (same `1.0.x.*` line) |
 
 Version lines:
 
@@ -96,7 +94,7 @@ WeChat MP / MiniApp client
  ShiroWeiXinPrincipal -> Subject (JWT via shiro-jwt-spring)
 ```
 
-The project is a single jar module. Package layout under `org.apache.shiro.spring.boot.weixin`:
+The project contains `shiro-weixin-core` and `shiro-weixin-spring` modules. Package layout under `org.apache.shiro.spring.boot.weixin`:
 
 | Package | Responsibility |
 |:---|:---|
@@ -115,7 +113,7 @@ Maven:
 ```xml
 <dependency>
     <groupId>io.github.easy4j</groupId>
-    <artifactId>shiro-weixin-extension</artifactId>
+    <artifactId>shiro-weixin-spring</artifactId>
     <version>1.0.x.20260630-SNAPSHOT</version>
 </dependency>
 ```
@@ -123,7 +121,7 @@ Maven:
 Gradle:
 
 ```groovy
-implementation 'io.github.easy4j:shiro-weixin-extension:1.0.x.20260630-SNAPSHOT'
+implementation 'io.github.easy4j:shiro-weixin-spring:1.0.x.20260630-SNAPSHOT'
 ```
 
 ## 6. Quick Start
