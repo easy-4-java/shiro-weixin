@@ -24,7 +24,7 @@ shiro-weixin-extension is an Apache Shiro extension that bridges WeChat authenti
 
 `shiro-weixin-extension` is an Apache Shiro extension that bridges WeChat authentication into a Shiro security chain. It plugs WeChat Official Account (MP) OAuth 2.0 login and WeChat Mini Program (Ma) login into Shiro realms and filters, so that an application can authenticate users with a WeChat `code` / `jscode` and then treat them as normal Shiro subjects.
 
-It builds on the easy4j `shiro-biz` module (`AbstractTrustableAuthenticatingFilter`, `AbstractAuthorizingRealm`) and pairs with the easy4j `shiro-jwt-extension` module for JWT-based session issuance. The WeChat protocol itself is delegated to WxJava (`weixin-java-mp`, `weixin-java-miniapp`).
+It builds on the easy4j `shiro-biz` module (`AbstractTrustableAuthenticatingFilter`, `AbstractAuthorizingRealm`) and pairs with the easy4j `shiro-jwt-spring` module for JWT-based session issuance. The WeChat protocol itself is delegated to WxJava (`weixin-java-mp`, `weixin-java-miniapp`).
 
 What it is **not**:
 
@@ -64,7 +64,7 @@ Project status: pre-release development line (`1.0.x.*` snapshots); public API i
 | Apache Shiro | 1.13.0 |
 | Spring Framework | 5.3.x |
 | WxJava | 4.3.4.B (`weixin-java-mp`, `weixin-java-miniapp`) |
-| easy4j sibling modules | `shiro-biz`, `shiro-jwt-extension` (same `1.0.x.*` line) |
+| easy4j sibling modules | `shiro-biz`, `shiro-jwt-spring` (same `1.0.x.*` line) |
 
 Version lines:
 
@@ -93,7 +93,7 @@ WeChat MP / MiniApp client
  (code/jscode -> accessToken -> userInfo)
         |
         v
- ShiroWeiXinPrincipal -> Subject (JWT via shiro-jwt-extension)
+ ShiroWeiXinPrincipal -> Subject (JWT via shiro-jwt-spring)
 ```
 
 The project is a single jar module. Package layout under `org.apache.shiro.spring.boot.weixin`:
