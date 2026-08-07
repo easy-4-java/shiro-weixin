@@ -1,0 +1,16 @@
+org/apache/shiro/spring/boot/weixin/exception/WxJsCodeInvalidException.class
+org/apache/shiro/spring/boot/weixin/exception/WxAuthenticationException.class
+org/apache/shiro/spring/boot/weixin/realm/WxMpAuthorizingRealm.class
+org/apache/shiro/spring/boot/weixin/authc/WxMaAuthenticatingFilter.class
+org/apache/shiro/spring/boot/weixin/ShiroWeiXinPrincipal.class
+org/apache/shiro/spring/boot/weixin/realm/WxMaAuthorizingRealm.class
+org/apache/shiro/spring/boot/weixin/token/WxMpAuthenticationToken.class
+org/apache/shiro/spring/boot/weixin/exception/WxJsCodeNotFoundException.class
+org/apache/shiro/spring/boot/weixin/exception/WxJsCodeExpiredException.class
+org/apache/shiro/spring/boot/weixin/authc/WxAuthenticationSuccessHandler.class
+org/apache/shiro/spring/boot/weixin/exception/WxJsCodeIncorrectException.class
+org/apache/shiro/spring/boot/weixin/authc/WxMaLoginRequest.class
+org/apache/shiro/spring/boot/weixin/exception/URIUnpermittedException.class
+org/apache/shiro/spring/boot/weixin/authc/WxMpLoginRequest.class
+org/apache/shiro/spring/boot/weixin/authc/WxMpAuthenticatingFilter.class
+org/apache/shiro/spring/boot/weixin/token/WxMaAuthenticationToken.class
