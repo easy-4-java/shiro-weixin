@@ -7,6 +7,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import me.chanjar.weixin.common.bean.WxOAuth2UserInfo;
 import me.chanjar.weixin.common.bean.oauth2.WxOAuth2AccessToken;
 
+/**
+ * Login request payload for WeChat Official Account (Mp) OAuth2 authentication.
+ * Contains the authorization code, state, and user info.
+ *
+ * @author [@Loong Wan](https://github.com/loong10k)
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class WxMpLoginRequest {
 

@@ -18,6 +18,12 @@ import cn.binarywang.wx.miniapp.bean.WxMaPhoneNumberInfo;
 import cn.binarywang.wx.miniapp.bean.WxMaUserInfo;
 
 @Slf4j
+/**
+ * Authorizing realm for WeChat Mini Program authentication. Handles jscode exchange,
+ * phone number decryption, and user info retrieval via {@link WxMaService}.
+ *
+ * @author [@Loong Wan](https://github.com/loong10k)
+ */
 public class WxMaAuthorizingRealm extends AbstractAuthorizingRealm {
 
 
