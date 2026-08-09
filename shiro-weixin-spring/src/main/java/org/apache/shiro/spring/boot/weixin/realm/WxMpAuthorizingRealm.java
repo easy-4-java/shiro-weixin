@@ -18,6 +18,12 @@ import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.mp.api.WxMpService;
 
 @Slf4j
+/**
+ * Authorizing realm for WeChat Official Account OAuth2 authentication. Handles
+ * access token exchange and user info retrieval via {@link WxMpService}.
+ *
+ * @author [@Loong Wan](https://github.com/loong10k)
+ */
 public class WxMpAuthorizingRealm extends AbstractAuthorizingRealm {
 
 

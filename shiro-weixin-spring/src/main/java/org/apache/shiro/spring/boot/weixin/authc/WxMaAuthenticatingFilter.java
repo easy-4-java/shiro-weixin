@@ -22,6 +22,12 @@ import org.springframework.util.StringUtils;
 import com.alibaba.fastjson.JSONObject;
 
 @Slf4j
+/**
+ * Servlet filter for WeChat Mini Program authentication. Extracts the jscode and
+ * related parameters from the request and creates a {@link WxMaAuthenticationToken}.
+ *
+ * @author [@Loong Wan](https://github.com/loong10k)
+ */
 public class WxMaAuthenticatingFilter extends AbstractTrustableAuthenticatingFilter {
 
 
