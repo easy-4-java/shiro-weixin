@@ -20,6 +20,12 @@ import org.springframework.http.MediaType;
 import com.alibaba.fastjson.JSONObject;
 
 @Slf4j
+/**
+ * Servlet filter for WeChat Official Account OAuth2 authentication. Extracts the
+ * authorization code and state from the request and creates a {@link WxMpAuthenticationToken}.
+ *
+ * @author [@Loong Wan](https://github.com/loong10k)
+ */
 public class WxMpAuthenticatingFilter extends AbstractTrustableAuthenticatingFilter {
 
 

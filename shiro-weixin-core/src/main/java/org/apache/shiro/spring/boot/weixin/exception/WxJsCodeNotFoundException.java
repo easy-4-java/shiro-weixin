@@ -18,7 +18,9 @@ package org.apache.shiro.spring.boot.weixin.exception;
 import org.apache.shiro.authc.AuthenticationException;
 
 /**
+ * Exception thrown when the WeChat JS-Code is not found in the request.
  *
+ * @author [@Loong Wan](https://github.com/loong10k)
  */
 @SuppressWarnings("serial")
 public class WxJsCodeNotFoundException extends AuthenticationException {

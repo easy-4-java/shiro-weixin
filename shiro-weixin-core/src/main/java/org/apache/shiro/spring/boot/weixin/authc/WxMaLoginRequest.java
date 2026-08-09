@@ -7,6 +7,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import cn.binarywang.wx.miniapp.bean.WxMaPhoneNumberInfo;
 import cn.binarywang.wx.miniapp.bean.WxMaUserInfo;
 
+/**
+ * Login request payload for WeChat Mini Program (Ma) authentication.
+ * Contains the jscode, session key, user info, and phone number data.
+ *
+ * @author [@Loong Wan](https://github.com/loong10k)
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class WxMaLoginRequest {
 

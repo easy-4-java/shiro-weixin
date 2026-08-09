@@ -25,6 +25,12 @@ import org.springframework.http.MediaType;
 import com.alibaba.fastjson.JSONObject;
 
 @Slf4j
+/**
+ * Handler invoked upon successful WeChat authentication. Issues a JWT via the
+ * configured {@link JwtPayloadRepository} and returns the token map as a JSON response.
+ *
+ * @author [@Loong Wan](https://github.com/loong10k)
+ */
 public class WxAuthenticationSuccessHandler implements AuthenticationSuccessHandler {
 
 
