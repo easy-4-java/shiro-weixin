@@ -8,6 +8,7 @@
     <developers><developer><name>Loong Wan</name><email>hiwepy@gmail.com</email><url>https://github.com/loong10k</url><roles><role>developer</role></roles><timezone>+8</timezone></developer></developers>
     <properties>
         <java.version>1.8</java.version>
+        <maven.compiler.release>${java.version}</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <revision>1.0.x.20260630-SNAPSHOT</revision>
 
