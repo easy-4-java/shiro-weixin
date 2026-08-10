@@ -1,4 +1,4 @@
-package org.apache.shiro.spring.boot.weixin.authc;
+package org.apache.shiro.weixin.authc;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

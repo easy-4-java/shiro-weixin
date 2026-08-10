@@ -1,4 +1,4 @@
-package org.apache.shiro.spring.boot.weixin.authc;
+package org.apache.shiro.weixin.authc;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -13,10 +13,10 @@ import org.apache.shiro.biz.authc.AuthenticationSuccessHandler;
 import org.apache.shiro.biz.authz.principal.ShiroPrincipal;
 import org.apache.shiro.biz.utils.SubjectUtils;
 import org.apache.shiro.biz.web.servlet.http.HttpStatus;
-import org.apache.shiro.spring.boot.jwt.JwtPayloadRepository;
-import org.apache.shiro.spring.boot.utils.SubjectJwtUtils;
-import org.apache.shiro.spring.boot.weixin.token.WxMaAuthenticationToken;
-import org.apache.shiro.spring.boot.weixin.token.WxMpAuthenticationToken;
+import org.apache.shiro.jwt.JwtPayloadRepository;
+import org.apache.shiro.utils.SubjectJwtUtils;
+import org.apache.shiro.weixin.token.WxMaAuthenticationToken;
+import org.apache.shiro.weixin.token.WxMpAuthenticationToken;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.util.WebUtils;
 import lombok.extern.slf4j.Slf4j;

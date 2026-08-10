@@ -1,4 +1,4 @@
-package org.apache.shiro.spring.boot.weixin.exception;
+package org.apache.shiro.weixin.exception;
 
 import org.apache.shiro.authc.AuthenticationException;
 

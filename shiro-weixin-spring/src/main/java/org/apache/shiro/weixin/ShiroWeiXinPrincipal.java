@@ -1,4 +1,4 @@
-package org.apache.shiro.spring.boot.weixin;
+package org.apache.shiro.weixin;
 
 import org.apache.shiro.biz.authz.principal.ShiroPrincipal;
 

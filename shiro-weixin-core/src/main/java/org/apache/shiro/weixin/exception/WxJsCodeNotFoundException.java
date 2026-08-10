@@ -13,25 +13,29 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package org.apache.shiro.spring.boot.weixin.exception;
+package org.apache.shiro.weixin.exception;
 
 import org.apache.shiro.authc.AuthenticationException;
 
-public class WxAuthenticationException extends AuthenticationException {
+/**
+ *
+ */
+@SuppressWarnings("serial")
+public class WxJsCodeNotFoundException extends AuthenticationException {
 
-	public WxAuthenticationException() {
+	public WxJsCodeNotFoundException() {
 		super();
 	}
 
-	public WxAuthenticationException(String message, Throwable cause) {
+	public WxJsCodeNotFoundException(String message, Throwable cause) {
 		super(message, cause);
 	}
 
-	public WxAuthenticationException(String message) {
+	public WxJsCodeNotFoundException(String message) {
 		super(message);
 	}
 
-	public WxAuthenticationException(Throwable cause) {
+	public WxJsCodeNotFoundException(Throwable cause) {
 		super(cause);
 	}
 

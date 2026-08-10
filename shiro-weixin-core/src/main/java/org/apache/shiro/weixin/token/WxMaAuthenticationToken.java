@@ -1,7 +1,7 @@
-package org.apache.shiro.spring.boot.weixin.token;
+package org.apache.shiro.weixin.token;
 
 import org.apache.shiro.biz.authc.token.DefaultAuthenticationToken;
-import org.apache.shiro.spring.boot.weixin.authc.WxMaLoginRequest;
+import org.apache.shiro.weixin.authc.WxMaLoginRequest;
 
 @SuppressWarnings("serial")
 public class WxMaAuthenticationToken extends DefaultAuthenticationToken {

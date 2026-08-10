@@ -1,4 +1,4 @@
-package org.apache.shiro.spring.boot.weixin.authc;
+package org.apache.shiro.weixin.authc;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -12,8 +12,8 @@ import org.apache.shiro.biz.authc.AuthcResponse;
 import org.apache.shiro.biz.utils.WebUtils2;
 import org.apache.shiro.biz.web.filter.authc.AbstractTrustableAuthenticatingFilter;
 import org.apache.shiro.biz.web.servlet.http.HttpStatus;
-import org.apache.shiro.spring.boot.weixin.exception.WxJsCodeInvalidException;
-import org.apache.shiro.spring.boot.weixin.token.WxMaAuthenticationToken;
+import org.apache.shiro.weixin.exception.WxJsCodeInvalidException;
+import org.apache.shiro.weixin.token.WxMaAuthenticationToken;
 import org.apache.shiro.web.util.WebUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
