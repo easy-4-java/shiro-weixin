@@ -3,7 +3,7 @@ package org.apache.shiro.spring.boot.weixin.authc;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.apache.shiro.biz.authc.AuthenticationSuccessHandler;
-import org.apache.shiro.spring.boot.jwt.JwtPayloadRepository;
+import org.apache.shiro.jwt.JwtPayloadRepository;
 import org.apache.shiro.spring.boot.weixin.token.WxMaAuthenticationToken;
 import org.apache.shiro.spring.boot.weixin.token.WxMpAuthenticationToken;
 import org.junit.jupiter.api.Test;
