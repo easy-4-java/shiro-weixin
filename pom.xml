@@ -10,10 +10,10 @@
     <description>WeChat authentication extensions for Apache Shiro</description>
     <version>3.0.x.20260630-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <modules>
-        <module>shiro-weixin-core</module>
-        <module>shiro-weixin-spring</module>
-    </modules>
+    <subprojects>
+        <subproject>shiro-weixin-core</subproject>
+        <subproject>shiro-weixin-spring</subproject>
+    </subprojects>
     <!-- 开源协议采用 Apache 2.0 协议 -->
     <licenses>
         <license>
