@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.Objects;
 
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
+import jakarta.servlet.ServletRequest;
+import jakarta.servlet.ServletResponse;
 
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.biz.authc.AuthcResponse;

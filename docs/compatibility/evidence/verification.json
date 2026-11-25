@@ -1,0 +1,21 @@
+{
+  "repo": "shiro-weixin",
+  "branch": "feature/3.0.x",
+  "java": "21",
+  "shiro": "3.0.2",
+  "declaration_and_import_check": "PASS",
+  "issues": [],
+  "dependency_tree_verified": false,
+  "maven_exit": 1,
+  "maven_command": [
+    "/Users/wandl/.m2/wrapper/dists/apache-maven-4.0.0-rc-6-bin/5noq01gdph7aitf1sf623gjsbe/apache-maven-4.0.0-rc-6/bin/mvn",
+    "-s",
+    "/tmp/shiro-302-settings.xml",
+    "-Dmaven.repo.local=/tmp/shiro-302-m2",
+    "-o",
+    "-B",
+    "-ntp",
+    "test"
+  ],
+  "java_home": "/Users/wandl/Library/Java/JavaVirtualMachines/ms-21.0.13.0.2/Contents/Home"
+}
